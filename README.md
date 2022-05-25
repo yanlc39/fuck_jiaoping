@@ -8,7 +8,7 @@
 
   > python -m pip install -r requirements.txt
 
-将主函数中xuehao改为您自己的学号
+将主函数中xuehao改为您自己的学号、mima改为您对应的密码，而后
 
   > python main.py
 
