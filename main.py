@@ -3,9 +3,9 @@ from lxml import etree
 
 
 class Judge(object):
-    def __init__(self, userID: str):
+    def __init__(self, userID: str, pwd: str):
         self.__userid = userID
-        self.__pwd = '111111'
+        self.__pwd = pwd
         self.__version = '1.0'
         self.__rq = requests.session()
         self.__postData = {
@@ -123,4 +123,4 @@ class Judge(object):
 
 
 if __name__ == "__main__":
-    print(Judge('xuehao').getMsg())
+    print(Judge('xuehao','mima').getMsg())
